@@ -17,5 +17,5 @@ const host = '0.0.0.0';
 
 // Start the server and listen on the defined port and host
 server.listen(port, host, () => {
-    console.log(`Server running at http://${host}:${port}/`);
+    console.log(`Server running at ${port}/`);
 });
